@@ -10,8 +10,16 @@ public class Q3_Find_Max_Min {
         for(int i = 0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
+        int min = arr[0];
+        int max = arr[0];
+
+
+        for(int i : arr){
+            max = Math.max(i,max);
+        }
+        for(int i : arr){
+            min = Math.min(i,min);
+        }
 
 
 
