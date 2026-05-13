@@ -1,4 +1,4 @@
-package Pseudocodes;
+package Basic_Ques;
 import java.util.*;
 public class Q4_Nested_if_else {
     public static void main(String[] args) {
