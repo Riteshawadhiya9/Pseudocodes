@@ -1,4 +1,4 @@
-package Pseudocodes;
+package Basic_Ques;
 import java.util.*;
 public class Q6_Reverse_Number {
     public static void main(String[] args) {

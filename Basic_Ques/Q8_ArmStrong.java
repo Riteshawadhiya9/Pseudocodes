@@ -1,4 +1,4 @@
-package Pseudocodes;
+package Basic_Ques;
 
 import java.util.Scanner;
 
