@@ -11,11 +11,11 @@ public class Q7_Integer_to_Roman {
         System.out.print("Enter digit : ");
         int num = sc.nextInt();
 
-        String ans = romanToInt(num);
+        String ans = intToRoman(num);
         System.out.println("Output : "+ans);
     }
 
-    private static String romanToInt(int num){
+    private static String intToRoman(int num){
         Map<Integer , String> mp = new LinkedHashMap<>();
         mp.put(1000, "M");
         mp.put(900, "CM");
