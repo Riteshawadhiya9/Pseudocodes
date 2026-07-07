@@ -1,7 +1,9 @@
 package Practice_Ques.HashMap;
 
 import java.util.HashMap;
-
+// 1. Length of 2 Strings should be equals
+// 2. Freq. of each char must be same
+// 3. No chat should be extra or different
 public class Q9_Valid_Anagram {
     public static void main(String[] args) {
         String str = "anagram";
@@ -37,3 +39,5 @@ public class Q9_Valid_Anagram {
         return mp;
     }
 }
+
+
